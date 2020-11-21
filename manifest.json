@@ -1,0 +1,14 @@
+{
+    "name": "Kamal Guliyev",
+    "version": "1.0",
+    "description": "Practice",
+    "content_scripts": [{
+        "matches": ["https://kamalguliyev.com/"],
+        "js": ["content.js"]
+    }],
+    "icons": {
+        "48": "crc-6.png",
+        "96": "crc-6.png"
+    },
+    "manifest_version": 2
+}
